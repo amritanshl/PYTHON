@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ifa6s7EVcHcWMOAiLXkAgxRbt/QpeTBDUFV1mKuONJxxjHkaYCcmjxqlLFjOy7aSERaL56EPBB/zZSzYIOeFDw==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\alal0\\OneDrive\\Desktop\\dotnetapp\\SimpleApi.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'Microsoft.AspNetCore.OpenApi (>= 8.0.3)' for 'net8.0'.",
+      "libraryId": "Microsoft.AspNetCore.OpenApi",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'Swashbuckle.AspNetCore (>= 6.4.0)' for 'net8.0'.",
+      "libraryId": "Swashbuckle.AspNetCore",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}

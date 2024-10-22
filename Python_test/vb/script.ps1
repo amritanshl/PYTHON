@@ -1,0 +1,1 @@
+﻿Copy-Item 'D:\Microsoft\EY_Python_Cloud\dotnetapp' -Recurse 'JitinFolder'

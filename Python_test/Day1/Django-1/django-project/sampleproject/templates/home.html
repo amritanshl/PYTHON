@@ -1,0 +1,14 @@
+
+{% for name in names %}
+{% if name != 'Amrit' %}
+<h1>Deligates are {{name}}</h1>
+{% endif %}
+
+{% if name == 'Amrit' %}
+<h1>Trainer is {{name}}</h1>
+{% endif %}
+
+
+{% endfor %}
+
+

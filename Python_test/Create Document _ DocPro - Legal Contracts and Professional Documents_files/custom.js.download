@@ -1,0 +1,9 @@
+$(function()
+{$(".inputFieldClass").on("focus",function(){$(this).autocomplete({source:function(request,response)
+{$.ajax({url:"/api/document-name-autocomplete",dataType:"json",data:{name:request.term},success:function(data)
+{response($.map(data.results.slice(0,5),function(item)
+{return{label:item.name,value:item.name}}));}});},minLength:2});});$(".keywordSearch").on("focus",function(){$(this).autocomplete({source:function(request,response)
+{console.log('response',response)
+$.ajax({url:"/api/document-keywords-autocomplete",dataType:"json",data:{keyword:request.term},success:function(data)
+{response($.map(data.results.slice(0,5),function(item)
+{return{label:item.keyword,value:item.keyword}}));}});},minLength:2});});});document.addEventListener('copy',function(){var selection=window.getSelection(),pagelink='<br /><br /> Read more at: '+document.location.href,copytext=selection+pagelink,newdiv=document.createElement('div');newdiv.style.position='absolute';newdiv.style.left='-99999px';document.body.appendChild(newdiv);newdiv.innerHTML=copytext;selection.selectAllChildren(newdiv);window.setTimeout(function(){document.body.removeChild(newdiv);},100);});

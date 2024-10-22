@@ -1,0 +1,12 @@
+
+{%block content%}
+<form action="calculation" method="post">
+{%csrf_token%}
+ First number: <input type="text" name = "num1"><br>
+ Second Number: <input type="text" name = "num2"><br>
+
+ <input type="submit">
+
+
+</form>
+{% endblock %}

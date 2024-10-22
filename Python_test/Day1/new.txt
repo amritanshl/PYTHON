@@ -1,0 +1,16 @@
+'DRIVER={SQL Server};SERVER=sql-mtx-divisionorderlease-bus.database.windows.net;DATABASE=AZUWDBSDFI01_DivisionOrderLease_DB;UID=fiflexidod;PWD=sRcNZqcXvUTt3cp0'
+
+
+
+Starting from the 2nd row, access every 5th row:
+    Year             WHO region      ...      Beverage Types Display Value
+1   1986               Americas      ...               Other          0.50
+6   1987                 Africa      ...                Wine          0.13
+11  1989               Americas      ...                Beer          0.62
+16  1984               Americas      ...                Wine          0.06
+21  1989               Americas      ...             Spirits          4.51
+26  1985                 Europe      ...                Wine          1.36
+31  1986        Western Pacific      ...                Wine          0.00
+36  1987  Eastern Mediterranean      ...                Beer          0.07
+41  1986                 Europe      ...                Beer          6.82
+46  1987               Americas      ...             Spirits          2.261.98   
